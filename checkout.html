@@ -10,24 +10,23 @@
     <!--Table 0 Top bar-->
     <table border="0" width="100%" height="50px">
         <tr>
-            <td width="30%"> 7, Imoleoluwatan Street, Ajowa, Ifo, Ogun State</td>
-            <td width="20%"> &#9742;+234703648379 </td>
-            <td width="20%"> &#9742;+2349091420214</td> 
-            <td width="20%"> &#x2709;adesiletobiloba@gmail.com</td>
-            <td width="10%"> Login / Sign Up</td>
+            <td width="30%" align="center"> 7, Imoleoluwatan Street, Ajowa, Ifo, Ogun State</td>
+            <td width="20%" align="center"> &#9742;+234703648379 </td>
+            <td width="20%" align="center"> &#9742;+2349091420214</td> 
+            <td width="20%" align="center"> &#x2709;adesiletobiloba@gmail.com</td>
         </tr>
         </table>
     <!--Table 1 Header Bar-->
     <table border="0" width="100%" height="80px" >
         <tr>
             <td width="20%" align="center">
-                <img src="images/Tinto TImepieces Logo.jpg" alt="Tinto Timepieces Logo" width="60%">
+                <img src="images/tintoTImepiecesLogo.jpg" alt="Tinto Timepieces Logo" width="60%">
             </td>
             <td align="center" width="60%"> <h1>Tinto Timepieces</h1></td>
             <td align="center" width="20%">
-                <img src="images/Instagram Logo.avif" width="50px" height="50px" alt="Instagram logo">
-                <img src="images/Facebook logo.png" width="50px" height="50px" alt="Facebook logo">
-                <img src="images/WhatsApp Logo.png" width="50px" height="50px" alt="WhatsApp logo" > 
+                <img src="images/instalogonew.jpg" width="50px" height="50px" alt="Instagram logo">
+                <img src="images/facebooklogo.png" width="50px" height="50px" alt="Facebook logo">
+                <img src="images/whatsapplogo.png" width="50px" height="50px" alt="WhatsApp logo" > 
             </td>
         </tr>
     </table>
@@ -35,7 +34,7 @@
     <table border="0" width="100%" height="40px">
         <tr>
             <td width="20%" align="center"><a href="index.html">Home</a></td>
-            <td width="20%" align="center"><a href="watches.html">Products</a><td>
+            <td width="20%" align="center"><a href="watches.html">Watches</a><td>
             <td width="20%" align="center"><a href="partners.html">Our Partners</a></td>
             <td width="20%" align="center"><a href="about.html">About Us</a></td>
             <td width="20%" align="center"><a href="contact.html">Contact Us</a> </td>
@@ -60,7 +59,7 @@
             <table border="0" width="100%" height="600px">
                 <tr>
                     <!--Billing information-->
-                    <td width="35%">
+                    <td width="35%" valign="top" >
                         <table border="0" width="100%" height="600px">
                             <caption>
                                 <h3>Billing Address</h3>
@@ -73,7 +72,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" name="First Name" id="First Name" placeholder="Enter your first name here">
+                                <input type="text" name="First Name" id="first_name" placeholder="Enter your first name here">
                             </td>
                         </tr>
                         <!--Last Name-->
@@ -84,7 +83,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" name="Last Name" id="Last Name" placeholder="Enter your last name here">
+                                <input type="text" name="Last Name" id="last_name" placeholder="Enter your last name here">
                             </td>
                         </tr>
 
@@ -110,10 +109,21 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" name="Phone Number" id="Phone Number" placeholder="Enter your phone number here">
+                                <input type="text" name="Phone Number" id="phone_number" placeholder="Enter your phone number here">
                             </td>
                         </tr>
 
+                         <!--Street Address-->
+                        <tr>
+                            <td>
+                                <h3>Street Address</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="street" id="Street" placeholder="House number and street name" >
+                            </td>
+                        </tr>
 
                         <!--City-->
                         <tr>
@@ -123,33 +133,71 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" name="city" id="First Name" placeholder="Enter your city here" >
+                                <input type="text" name="city" id="City" placeholder="Enter your city here" >
                             </td>
                         </tr>
 
 
-                        <!--Address-->
+                        <!--State-->
+                    <tr>
+                         <td>
+                            <h3>State</h3>
+                        </td>
+                    </tr>
+<tr>
+    <td>
+        <select name="state" id="state">
+            <option value="">-- Select State --</option>
+            <option value="Abia">Abia</option>
+            <option value="Adamawa">Adamawa</option>
+            <option value="Akwa Ibom">Akwa Ibom</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Bauchi">Bauchi</option>
+            <option value="Bayelsa">Bayelsa</option>
+            <option value="Benue">Benue</option>
+            <option value="Borno">Borno</option>
+            <option value="Cross River">Cross River</option>
+            <option value="Delta">Delta</option>
+            <option value="Ebonyi">Ebonyi</option>
+            <option value="Edo">Edo</option>
+            <option value="Ekiti">Ekiti</option>
+            <option value="Enugu">Enugu</option>
+            <option value="Gombe">Gombe</option>
+            <option value="Imo">Imo</option>
+            <option value="Jigawa">Jigawa</option>
+            <option value="Kaduna">Kaduna</option>
+            <option value="Kano">Kano</option>
+            <option value="Katsina">Katsina</option>
+            <option value="Kebbi">Kebbi</option>
+            <option value="Kogi">Kogi</option>
+            <option value="Kwara">Kwara</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Nasarawa">Nasarawa</option>
+            <option value="Niger">Niger</option>
+            <option value="Ogun">Ogun</option>
+            <option value="Ondo">Ondo</option>
+            <option value="Osun">Osun</option>
+            <option value="Oyo">Oyo</option>
+            <option value="Plateau">Plateau</option>
+            <option value="Rivers">Rivers</option>
+            <option value="Sokoto">Sokoto</option>
+            <option value="Taraba">Taraba</option>
+            <option value="Yobe">Yobe</option>
+            <option value="Zamfara">Zamfara</option>
+            <option value="FCT">Federal Capital Territory (FCT)</option>
+        </select>
+    </td>
+</tr>
 
 
-                        <tr>
-                            <td>
-                                <h3>Address</h3>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <textarea rows="5" cols="35" name="address" id="address">
-
-                                </textarea>
-                            </td>
-                        </tr>
+                       
 
 
 
                         <!--Shipping address same as billing option button-->
                         <tr>
                             <td>
-                                <input type="checkbox" id="sameAddress">
+                                <input type="checkbox" id="same_address">
                                 <label for="sameAddress">Shipping address same as billing</label>
                             </td>
                         </tr>
@@ -162,7 +210,7 @@
 
 
             <!--Payment-->
-                 <td width="35%">
+                 <td width="35%" valign="top" >
                         <table border="0" width="100%" height="600px">
                             <caption>
                                 <h3>Payment</h3>
@@ -175,7 +223,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="images/Mastercard.jpg" width="5%"> <img src="images/Visa card.jpg" width="5%"> <img src="images/Verve card.jpg" width="5%">
+                                <img src="images/mastercard.jpg" width="5%"> <img src="images/visacard.jpg" width="5%"> <img src="images/vervecard.jpg" width="5%">
                             </td> 
                         </tr>
                         <!--Name on Card-->
@@ -199,7 +247,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" name="Card Number" id="Card Number" placeholder="here">
+                                <input type="text" name="Card Number" id="card_number" placeholder="here">
                             </td>
                         </tr>
 
@@ -207,12 +255,12 @@
                         <!--Exp Month-->
                         <tr>
                             <td>
-                                <h3>Exp Month</h3>
+                                <h3>Expiration Month</h3>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="month" name="Exp Month" id="Exp Month" placeholder="here">
+                                <input type="month" name="Exp Month" id="exp_month" placeholder="here">
                             </td>
                         </tr>
 
@@ -220,12 +268,12 @@
                         <!--Exp Year-->
                         <tr>
                             <td>
-                                <h3>Exp Year</h3>
+                                <h3>Expiration Year</h3>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="year" name="exp year" id="exp year" placeholder="here" >
+                                <input type="number" name="exp year" id="exp_year" placeholder="YYYY" >
                             </td>
                         </tr>
 
@@ -251,7 +299,7 @@
 
 
 <!--Order Summary-->
-                    <td width="30%">
+                    <td width="30%" valign="top">
                         <table border="0" width="100%" height="600px">
                             <caption>
                                 <h3>Order Summary</h3>
@@ -264,7 +312,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" name="Sub Total" id="Sub Total" placeholder="here">
+                                <input type="text" name="Sub Total" id="sub_total" placeholder="here">
                             </td>
                         </tr>
                         <!--Tax-->
@@ -301,7 +349,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" name="Shipping Amount" id="Shipping Amount" placeholder="here">
+                                <input type="text" name="Shipping Amount" id="shipping_amount" placeholder="here">
                             </td>
                         </tr>
 
@@ -314,7 +362,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" name="Overall Total Amount" id="Overall Total Amount" placeholder="here" >
+                                <input type="text" name="Overall Total Amount" id="overall_total_amount" placeholder="here" >
                             </td>
                         </tr>
 
@@ -349,11 +397,11 @@
 <table border="0" width="100%">
     <tr> 
         <td align="center">
-            <a href="payment.html"> <button>Proceed to Payment</button> </a>
+            <a href="payment.html" class="btn">Proceed to Payment</a>
+
         </td>
     </tr>
 </table>
- <button></button>
 
 
 
@@ -361,14 +409,11 @@
 
 
 
- <!--Footer Information-->
-    <table width="100%">
-        <tr>
-            <td align="center">
+
+  <!--Footer Information-->
+    <footer align="center" > 
                 <h4>Tinto Timepieces. Copyright &copy; 2025. All right reserved. </h4>
-            </td>
-        </tr>
-    </table>
+    </footer>
 </body>
 
 </html>
